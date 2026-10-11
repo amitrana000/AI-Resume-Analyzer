@@ -67,7 +67,7 @@ Provide the response in clear structured format.
 """
 
         response = client.chat.completions.create(
-            model="meta-llama/Llama-3.2-1B-Instruct",
+            model="meta-llama/Llama-3.2-8B-Instruct",
             messages=[{"role": "user", "content": prompt}],
         )
 
